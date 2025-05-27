@@ -33,7 +33,7 @@ Ni får en färdig meny att utgå från, och det är endast produkterna i den so
 - Era endpoints och er logik MÅSTE följa dokumentationen som [ni hittar här](https://gist.github.com/Santosnr6/82cb658f21006799767cea1f1f90fd53). Det är enligt denna logik jag kommer testa ert API när jag rättar så se till att följa den.
 
 **Viktigt!**
-Ni får INTE använda er av kryptering för säkra lösenord, samt tokens för användarautentisering i denna uppgit. Istället vill jag att ni sätter ```global.user = user``` när ni har en inloggad användare, samt ```global.user = null``` när användaren loggat ut.
+Ni får INTE använda er av kryptering för att säkra lösenord, samt tokens för användarautentisering i denna uppgift. Istället vill jag att ni sätter ```global.user = user``` när ni har en inloggad användare, samt ```global.user = null``` när användaren loggat ut.
 
 ---
 
