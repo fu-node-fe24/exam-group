@@ -1,0 +1,38 @@
+[
+  {
+    "prodId": "prod-jespe",
+    "title": "Bryggkaffe",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 39
+  },
+  {
+    "prodId": "prod-rnybe",
+    "title": "Caffè Doppio",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 49
+  },
+  {
+    "prodId": "prod-rgist",
+    "title": "Cappuccino",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 49
+  },
+  {
+    "prodId": "prod-hebes",
+    "title": "Latte Macchiato",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 49
+  },
+  {
+    "prodId": "prod-tofth",
+    "title": "Kaffe Latte",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 54
+  },
+  {
+    "prodId": "prod-ebest",
+    "title": "Cortado",
+    "desc": "Bryggd på månadens bönor.",
+    "price": 39
+  }
+]
