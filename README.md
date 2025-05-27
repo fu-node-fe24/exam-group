@@ -9,11 +9,12 @@ Airbean är den futuristiska kaffebaren där kaffe levereras med drönare (nåja
 Ni ska tillsammans bygga ett REST API för Airbean, där användare ska kunna:
 
 - Se kaffemenyn  
-- Skapa en ny beställning  
-- Se tidigare beställningar kopplade till ett unikt användar-ID  
-- Skapa nya konton  
+- Lägga till/ta bort varor i en kundvagn
+- Lägga en order
+- Se tidigare orderar kopplade till ett unikt användar-ID  
+- Skapa konton och logga in  
 
-Ni får en färdig meny att utgå från, och det är endast produkterna i den som ska kunna beställas.  
+Ni får en färdig meny att utgå från, och det är endast produkterna i den som ska kunna beställas. Menyn lägger ni till manuellt via MongoDBCompass.  
 **Länk till menyn:**  
 👉 [`Airbean-API/menu.json`](Airbean-API/menu.json)
 
@@ -25,11 +26,14 @@ Ni får en färdig meny att utgå från, och det är endast produkterna i den so
 - Databasen ska vara **MongoDB**  
 - All input som kommer in via URL eller request body ska **valideras i middleware**:
   - Felaktig data ska returnera ett tydligt **felmeddelande**
-  - Endast produkter från menyn får läggas till i en beställning
+- Endast produkter från menyn får läggas till i en beställning
 - När ett **användarkonto** skapas ska det få ett **slumpat användar-ID**  
 - Orderhistorik ska kunna hämtas med användar-ID (**inte** användarnamn)
 - Koden ska vara **välstrukturerad och läsbar**
 - Era endpoints och er logik MÅSTE följa dokumentationen som [ni hittar här](https://gist.github.com/Santosnr6/82cb658f21006799767cea1f1f90fd53).
+
+**Viktigt!**
+Ni får INTE använda er av kryptering för säkra lösenord, samt tokens för användarautentisering i denna uppgit. Istället vill jag att ni sätter ```global.user = user``` när ni har en inloggad användare, samt ```global.user = null``` när användaren loggat ut.
 
 ---
 
@@ -55,6 +59,8 @@ Detta används om konflikter skulle uppstå. Om ett kontrakt inte finns, riskera
 - Lägg all valideringslogik i **middleware**
 - Ha en tydlig projektstruktur: mappar, routes, felhantering
 - Blir era *routes* för stora så kan ni skapa en controllersmapp som fungerar som en "mellanhand" mellan era routes och services, och där ni kan lägga logiken.
+- Om ni vill träna på Swaggerdokumentation inför den individuella uppgiften så är det fritt fram att skapa en sådan
+- För tydlighetens skull: när ni skapar upp IDn, namnge dem då efter principen **guest-xxxxx**, **user-xxxxx**, **order-xxxxx**, samt **cart-xxxxx**.
 
 ---
 
