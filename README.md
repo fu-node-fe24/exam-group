@@ -26,12 +26,10 @@ Ni får en färdig meny att utgå från, och det är endast produkterna i den so
 - All input som kommer in via URL eller request body ska **valideras i middleware**:
   - Felaktig data ska returnera ett tydligt **felmeddelande**
   - Endast produkter från menyn får läggas till i en beställning
-  - Priset på produkterna ska kontrolleras
 - När ett **användarkonto** skapas ska det få ett **slumpat användar-ID**  
-  (_använd gärna ett bibliotek för detta_)
 - Orderhistorik ska kunna hämtas med användar-ID (**inte** användarnamn)
 - Koden ska vara **välstrukturerad och läsbar**
-- Era endpoints och er logik MÅSTE följa dokumentationen som [ni hittar här]().
+- Era endpoints och er logik MÅSTE följa dokumentationen som [ni hittar här](https://gist.github.com/Santosnr6/82cb658f21006799767cea1f1f90fd53).
 
 ---
 
@@ -46,8 +44,7 @@ Detta används om konflikter skulle uppstå. Om ett kontrakt inte finns, riskera
 
 - En gruppmedlem skapar ett **GitHub-repo** och bjuder in övriga
 - Sätt upp en **projekttavla** i GitHub Projects eller Trello  
-
-> Skapa gärna fler **user stories** eller **tekniska tasks** efter behov – t.ex. middleware-validering, databaslogik etc. Utöka dock inte API:et med mer funktionalitet än vad som står i dokumentationen.
+- Till er hjälp har ni följande [user stories](https://github.com/users/Santosnr6/projects/27)
 
 ---
 
@@ -57,6 +54,7 @@ Detta används om konflikter skulle uppstå. Om ett kontrakt inte finns, riskera
 - Dela upp arbetet: t.ex. konton, beställningar, validering
 - Lägg all valideringslogik i **middleware**
 - Ha en tydlig projektstruktur: mappar, routes, felhantering
+- Blir era *routes* för stora så kan ni skapa en controllersmapp som fungerar som en "mellanhand" mellan era routes och services, och där ni kan lägga logiken.
 
 ---
 
@@ -67,7 +65,8 @@ Alla i gruppen lämnar in en **länk till ert gemensamma GitHub-repo** på Azomo
 
 ⚠️ Glöm inte:
 - Att bjuda in mig till ert repo
-- Att dela er projekttavla
-- Att skapa en User till mig, samt ge mig Network Access till er databas. Min IP-adress: **2.248.92.11** 
+- Att dela er projekttavla med mig
+- Att skapa en User till mig, samt ge mig Network Access till er databas. Min IP-adress: **2.248.92.11**
+- Skicka med er connection string i kommentarerna för er inlämning
 
 ---
