@@ -16,7 +16,7 @@ Ni ska tillsammans bygga ett REST API för Airbean, där användare ska kunna:
 
 Ni får en färdig meny att utgå från, och det är endast produkterna i den som ska kunna beställas. Menyn lägger ni till manuellt via MongoDBCompass.  
 **Länk till menyn:**  
-👉 [`Airbean-API/menu.json`](Airbean-API/menu.json)
+👉 [Airbean Products](airbean.products.json)
 
 ---
 
