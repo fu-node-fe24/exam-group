@@ -1,6 +1,6 @@
 # ☕ Bygg ett API för Airbean!
 
-Airbean är den futuristiska kaffebaren där kaffe levereras med drönare (nåja… nästan!). I detta **grupparbete** ska ni bygga ett backend-API som gör det möjligt att beställa kaffe från menyn och lägga beställningar – men bara själva API:t. **Ingen frontend** ska byggas.
+Airbean är den futuristiska kaffebaren där kaffe levereras med drönare (nåja… nästan!). I detta **grupparbete** ska ni bygga ett backend-API som gör det möjligt att lägga beställningar – men bara själva API:t. **Ingen frontend** ska byggas.
 
 ---
 
@@ -55,6 +55,7 @@ Detta används om konflikter skulle uppstå. Om ett kontrakt inte finns, riskera
 ## 🧪 Tips
 
 - Testa era endpoints i **Postman** eller **Insomnia**
+- Ge era users en **role**-property (det kommer underlätta inför den individuella examinationen)
 - Dela upp arbetet: t.ex. konton, beställningar, validering
 - Lägg all valideringslogik i **middleware**
 - Ha en tydlig projektstruktur: mappar, routes, felhantering
