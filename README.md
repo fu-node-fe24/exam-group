@@ -2,6 +2,8 @@
 
 Airbean är den futuristiska kaffebaren där kaffe levereras med drönare (nåja… nästan!). I detta **grupparbete** ska ni bygga ett backend-API som gör det möjligt att lägga beställningar – men bara själva API:t. **Ingen frontend** ska byggas.
 
+En inspelad presentation av uppgiften [hittar ni här](https://vimeo.com/1088326956/f0e770176d?share=copy)
+
 ---
 
 ## 🧩 Uppgiften
